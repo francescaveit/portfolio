@@ -65,7 +65,7 @@ function showErrorMessage($input, message) {
   if (message) {
     var error = document.createElement('div');
     error.classList.add('error-message');
-    error.innerHTML = '<font color="#FF0000" size="3px">' + message;
+    error.innerHTML = '<div class="error">' + message + '</div>';
     $container.appendChild(error);
   }
 }

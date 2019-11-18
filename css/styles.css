@@ -802,6 +802,11 @@ fieldset {
   margin-top: 20px;
 }
 
+.error {
+  color: var(--error-color);
+  font-size: 12px;
+}
+
 .has-error .legend.legend,
 .has-error.form-group .control-label.control-label {
   color: var(--error-color);
