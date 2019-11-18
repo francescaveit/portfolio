@@ -544,7 +544,7 @@ fieldset {
 
 .form-group textarea {
   resize: none;
-  height: 200px;
+  height: 165px;
 }
 
 /* .form-group select {
